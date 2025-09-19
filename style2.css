@@ -1,0 +1,15 @@
+                h1 {
+                    color: #FFFFFF;
+                    font-family: Zen Dots;
+                }
+                body {
+                    background-color: #111111;
+                }
+                p {
+                    color: #00FF73;
+                    font-family: "consolas",sans-serif;
+                    text-decoration: cyan dotted underline;
+                    font-size: 18px;
+                }
+                
+                

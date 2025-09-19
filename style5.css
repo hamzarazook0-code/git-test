@@ -1,0 +1,30 @@
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px grey;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    text-align: center;
+    font-size: 80px;
+    
+    animation: 3s linear 0s infinite  running mypacity;
+}
+
+ @keyframes myslides {
+    from{margin-left: 0%;}
+    to{margin-left: 100%;}
+    
+ }
+
+ @keyframes myrotate {
+    100%{transform: rotatex(360deg);}
+ }
+ @keyframes mypacity{
+    50%{opacity: 0;}
+ }
+
+
+
