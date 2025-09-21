@@ -1,30 +1,125 @@
-.container{
-    display: flex ;
-    border: 10px solid black;
-    height: 90vh;
-      ;  
-    align-items:flex-end;
-    flex-wrap: wrap;
-    
+body{
+    margin: 0;
+    background-color: white
+}
+header{
+    background-color: hsl(213, 52%, 4%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+   
+}
+div.logo{
+    color: white
+}
+.btnSign-in{
+background-color: hsl(240, 95%, 62%);
+color: white;
+font-style:normal;
+border-radius: 5px;
+padding: 8px 28px;
 
 }
-.box{
-    width: 200px;
-    height: 150px;
-    font-size: 8em;
-    text-align: center;
-    border-radius: 50px;
+.btnSign-in:hover{
+    background-color: hsl(240, 95%, 52%);
+    cursor: pointer;
+}
+.btn{
+    background-color: hsl(218, 48%, 5%);
+    color: white;
+    padding: 8px 5px;
+    border-radius: 5px;
+    margin: 2px;
+    border-color: white;
     
 }
-#box1{
-    background-color: red;
+.btn:hover{
+    background-color: hsl(218, 48%, 15%);
+    cursor: pointer;
 }
-#box2{
-    background-color: rgb(255, 238, 0);
+main{
+    padding: 50px;
+    background-color: hsl(216, 69%, 76%);
 }
-#box3{
-    background-color: rgb(17, 0, 255);
+h1{
+    text-align: center;
+    transform: translatey(-25px);
+    color:hsl(216, 85%, 13%) ;
+    font-size: 40px;
+    font-style: italic;
+   
 }
-#box4{
-    background-color: hsl(125, 46%, 21%);
+.search-input{
+    transform: translate(530px, -30px); 
+    width: 350px;
+    height: 25px;
+    padding: 5px;
+    position: relative;
 }
+.search-btn{
+    transform: translate(496px, -29px);
+    padding: 8px;
+    position: relative;
+}
+.container{
+    padding-left: 40vh;
+    padding-top: 20vh;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+    
+}
+.column-container{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%;
+}
+.fa-solid{
+    transform: translate(-50px, 40px);
+
+}
+.h1{
+    font-style: italic;
+}
+.h2{
+    font-style: italic;
+}
+.h3{
+    font-style: italic;
+}
+h4{
+    font-style: italic;
+}
+.h5{
+    font-style: italic;
+}
+.h6{
+    font-style: italic;
+}
+footer{
+    height: 300px;
+    background-color: hsl(213, 52%, 4%); 
+}
+.main-container{
+    color: white;
+    padding-left:150px;
+    padding-top:60px ;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-around
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer #ass{
+    transform:translate(1px,40px)
+}
+
